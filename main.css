@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    background-color: gray;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .bg-custom {
+    background-color: #0E3386;
+}
+p {
+    font-family: 'Graduate', cursive;
+}
+h1 {
+    font-family: 'Graduate', cursive;
+}
+.container {
+    width: 100%;
+}
+#logo {
+    width: 800%;
+}
+#logo2 {
+    margin-top: .75%;
+    width: 15%;
+}
+#navbarNavDropdown {
+    padding-right: 75%;
+    text-align: center;
+}
+.footerP {
+    margin-top: 1.5%;
+}
+.nav-item {
+    margin-right: 68%;
+    font-size: 100%;
+    color:  V;
+}
+.nav-link  {
+    font-size: 103%;
+    font-family: 'Graduate', cursive;
+    color: #FFFFFF;
+}
+.navLogo {
+    list-style-type: none;
+}
+
+#footerHome {
+    background-color: #0E3386;
+    color: #FFFFFF;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+}
+#footerRecords {
+    background-color: #0E3386;
+    color: #FFFFFF;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+#footerLogo {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: #CC3433;
+}
+#info1 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0E3386;
+}
+#info2 {
+    background-color: #0E3386;
+    text-align: center;
+    color: #FFFFFF;
+}
+#homeTitle {
+    font-size: 500%;
+    text-shadow: 1px 5px 5px black;
+}
+#field {
+    width: 50%;
+}
+#central {
+    width: 60%;
+}
+#bodyHome {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+/* Page 2 (RECORDS)*/
+#sosa {
+    width: 25%;
+    padding-left: 3%;
+}
+.accordion-button {
+    background-color: #0E3386;
+    color: #FFFFFF;
+    font-family: 'Graduate', cursive;
+} 
+.accordion-item {
+    background-color: #CC3433;
+    color: #FFFFFF;
+    font-family: 'Graduate', cursive;
+    font-size: 87%;
+}
+#recordsTitle {
+    font-size: 400%;
+    text-shadow: 1px 5px 5px black;
+}
+#sosa2 {
+    width: 20%;
+    padding-left: 3%;
+}
+#recordsBackground {
+    background-image: url(Records\ Back.jpg);
+    background-size: cover;
+}
