@@ -50,8 +50,8 @@ h1 {
     background-color: #0E3386;
     color: #FFFFFF;
     bottom: 0;
+    margin-top: .24%;
     width: 100%;
-    position: absolute;
     text-align: left;
 }
 #footerRecords {
@@ -120,4 +120,44 @@ h1 {
 #recordsBackground {
     background-image: url(Records\ Back.jpg);
     background-size: cover;
+}
+.accordion-button::after {
+    background-image: url("Cubs\ Logo.png") !important;
+ }
+ /* Page 3 (Postseason) */
+ #wsRow {
+    padding-left: 5.5%;
+ }
+ #nlcRow {
+    text-align: center;
+    margin-left: 0%;
+ }
+ #nlcCard {
+    margin-left: 21%;
+ }
+ #nldsCard1 {
+    margin-left: 10%;
+ }
+ #nldsCard2 {
+    margin-left: 10%;
+ }
+ #postseasonBody {
+    background-image: url(postseasonback.jpg);
+    background-size: cover;
+    height: 200%;
+ }
+ #nlcTitle{
+    text-shadow: 1px 5px 5px black;
+ }
+#nldsTitle {
+    text-shadow: 1px 5px 5px black;
+}
+.card {
+    box-shadow: 2px 15px 2px #0E3386;
+}
+.card-body {
+    background-color: #CC3433;
+}
+.card-text {
+    color: #FFFFFF;
 }
